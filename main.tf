@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "example" {
-  name     = var.rgname
-  location = var.loc
+  name     = "rg1"
+  location ="east us"
 }
