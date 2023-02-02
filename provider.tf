@@ -1,3 +1,8 @@
+
 provider "azurerm" {
-  features {}
-  }
+  features{}
+}
+
+terraform {
+  backend "azurerm" {}
+}
